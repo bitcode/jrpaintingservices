@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Declare an array of string with file name
-declare -a arr=("pages/CommercialServices/index.tsx" "pages/ResidentialServices/index.tsx" "pages/ContactUs/index.tsx" "app/components/NavBar.tsx" "app/globals.css" "pages/index.tsx" "app/layout.tsx" "package.json" "postcss.config.js" "tailwind.config.js" "tsconfig.json")
+declare -a arr=("pages/CommercialServices/index.tsx" "pages/ResidentialServices/index.tsx" "pages/ContactUs/index.tsx" "middleware.ts" "components/NavBar.tsx" "app/globals.css" "pages/index.tsx" "app/layout.tsx" "package.json" "postcss.config.js" "tailwind.config.js" "tsconfig.json")
 
 # Create an empty string to hold all file content
 all_content=""

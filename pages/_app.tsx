@@ -1,7 +1,12 @@
-import type { AppProps /*, AppContext */ } from 'next/app'
+import React from 'react';
+import RootLayout from '../app/layout';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+const MyApp: React.FC<{ Component: any, pageProps: any }> = ({ Component, pageProps }) => {
+  return (
+    <RootLayout>
+      <Component {...pageProps}/>
+    </RootLayout>
+  );
 }
 
-export default MyApp
+export default MyApp;

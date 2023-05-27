@@ -4,20 +4,18 @@ import NavBar from '../components/NavBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'JR Painting Services',
-  description: 'Professional painting company that provides high quality work',
-}
-
 export default function RootLayout({
   children,
+  className = "",
 }: {
   children: React.ReactNode
+  className?: string
 }) {
+    console.log('Recieved classname', className);
   return (
     <>
       <NavBar />
-      <div className={inter.className}>{children}</div>
+      <div className={`${className} ${inter.className}`}>{children}</div>
     </>
   )
 }

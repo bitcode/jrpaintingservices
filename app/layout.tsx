@@ -11,7 +11,6 @@ export default function RootLayout({
   children: React.ReactNode
   className?: string
 }) {
-    console.log('Recieved classname', className);
   return (
     <>
       <NavBar />

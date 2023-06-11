@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <>
       <NavBar />
-      <div className={`${className} ${inter.className}`}>{children}</div>
+      <div className={`max-w-1800 mx-auto ${className} ${inter.className}`}>{children}</div>
     </>
   )
 }

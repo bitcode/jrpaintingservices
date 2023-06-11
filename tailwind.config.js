@@ -7,10 +7,14 @@ module.exports = {
   ],
   darkMode: ["class", '[data-theme="dark"]'],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        "1800": "1800px",
+      }
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
     themes: ["dark"],
-},
+  },
 }

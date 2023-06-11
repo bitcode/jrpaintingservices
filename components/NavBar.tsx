@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const NavBar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar max-w-1800 mx-auto">
       <div className="flex-1">
         <Link href="/" className="btn btn-ghost normal-case text-xl">
           Home

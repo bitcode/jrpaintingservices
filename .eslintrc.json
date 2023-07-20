@@ -1,3 +1,14 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parser": "typescript-eslint-parser",
+  "plugins": ["react"],
+  "rules": {
+    "format": "fix",
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2],
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+  },
 }

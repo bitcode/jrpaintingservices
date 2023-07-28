@@ -1,14 +1,13 @@
 {
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "parser": "typescript-eslint-parser",
-  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "format": "fix",
     "react/jsx-indent": ["error", 2],
-    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-indent-props": ["error", 2]
   },
   "env": {
     "browser": true,
-    "node": true,
-  },
+    "node": true
+  }
 }

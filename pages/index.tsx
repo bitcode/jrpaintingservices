@@ -14,7 +14,8 @@ const HomePage: React.FC = () => {
           </div>
           <div className="hero-content w-1/2">
             <Image
-              src="https://via.placeholder.com/500x500"
+              className="rounded-xl"
+              src="/images/jrps_living_room.png"
               alt="Placeholder"
               width={500}
               height={500}
@@ -23,8 +24,9 @@ const HomePage: React.FC = () => {
         </div>
         <div className="hero card bg-base-200 shadow-xl flex flex-row" style={{backgroundColor: 'rgb(32, 38, 50)'}}>
           <div className="hero-content w-1/2">
-                <Image
-              src="https://via.placeholder.com/500x500"
+            <Image
+              className="rounded-xl"
+              src="/images/jrps_office_room.png"
               alt="Placeholder"
               width={500}
               height={500}
@@ -46,7 +48,8 @@ const HomePage: React.FC = () => {
           </div>
           <div className="hero-content w-1/2">
             <Image
-              src="https://via.placeholder.com/500x500"
+              className="rounded-xl"
+              src="/images/jrps_waiting_room.png"
               alt="Placeholder"
               width={500}
               height={500}
@@ -56,7 +59,8 @@ const HomePage: React.FC = () => {
         <div className="hero card bg-base-200 shadow-xl flex flex-row" style={{backgroundColor: 'rgb(32, 38, 50)'}}>
           <div className="hero-content w-1/2">
             <Image
-              src="https://via.placeholder.com/500x500"
+              className="rounded-xl"
+              src="/images/jrps_home_office_room.png"
               alt="Placeholder"
               width={500}
               height={500}
